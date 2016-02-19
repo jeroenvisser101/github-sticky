@@ -6,7 +6,7 @@ Makes the GitHub header sticky.
 It adds some custom css (found in `src/inject/inject.css`).
 
 ## Why?
-Because it's free?
+I really like to see my notifications quickly without scrolling up.
 
 ## Contributing
 Contribute if you want, create issues if you encounter problems.

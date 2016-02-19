@@ -1,11 +1,19 @@
-.header {
-    position: fixed!important;
-    top: 0!important;
-    left: 0!important;
-    right: 0!important;
-    z-index: 100!important;
+/* Offset the start of the body by the height of the navbar */
+body {
+  padding-top: 49px;
 }
 
-.wrapper {
-    margin-top: 49px!important;
+/* Give the heade a fixed width at the top */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* Offset the sticky PR sidebar */
+.discussion-sidebar {
+  padding-top: 49px;
+  margin-top: -49px;
 }

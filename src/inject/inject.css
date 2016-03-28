@@ -10,10 +10,16 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .03);
 }
 
 /* Offset the sticky PR sidebar */
 .discussion-sidebar {
   padding-top: 49px;
   margin-top: -49px;
+}
+
+/* Offset the sticky PR header */
+.pr-toolbar.is-stuck {
+  top: 49px!important;
 }
